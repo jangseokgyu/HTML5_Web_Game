@@ -22,3 +22,11 @@ switch(jop){
 
 document.writeln( "" );
 document.writeln( "현재금액 : " + money);
+
+document.writeln("muliplation theory");
+for(var i =1;i<10;i++){
+  for(var j=1;j<=10;j++) {
+    document.writeln(i+" x "+j+ " = "+ i*j);
+  }
+  document.writeln();
+}
