@@ -30,3 +30,18 @@ for(var i =1;i<10;i++){
   }
   document.writeln();
 }
+
+function animal(name){
+  this.name = name;
+}
+
+animal.prototype.talk = function()
+{
+  document.writeln("name is"+this.name);
+}
+
+var money = new animal("원숭이");
+var bird = new animal("새");
+
+money.talk;
+bird.talk;
