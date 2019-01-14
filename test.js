@@ -13,4 +13,6 @@ function drawScreen()
   Context.drawImage(jpgimg,0,0);
 }
 
+document.writeln("fuckyou");
+
 drawScreen();
