@@ -10,7 +10,7 @@ imgPlayer.addEventListener("load",drawScreen,false);
 
 function drawScreen()
 {
-  var theCanvas = document.getElementsById("GameCanvas");
+  var theCanvas = document.getElementById("GameCanvas");
   var Context = theCanvas.getContext("2d");
 
   Context.fillStyle = "#000000";
